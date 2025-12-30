@@ -783,3 +783,5 @@ TaskManager_Call = 0x02050530 | 1;
 Task_TutorialBattle = 0x0205128C | 1;
 
 GetItemAttrSub = 0x02077E48 | 1;
+
+Save_SysInfo_RTC_Get = 0x02028D3C | 1;
