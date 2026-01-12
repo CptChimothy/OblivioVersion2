@@ -11386,8 +11386,8 @@ trainerdata 253, "Alch"
         ballseal 0
     endparty
 
-trainerdata 254, "Misty"
-    trainermontype TRAINER_DATA_TYPE_ITEMS | TRAINER_DATA_TYPE_MOVES
+trainerdata 254, "MsV"
+    trainermontype TRAINER_DATA_TYPE_ITEMS | TRAINER_DATA_TYPE_MOVES | TRAINER_DATA_TYPE_ITEMS | TRAINER_DATA_TYPE_ABILITY | TRAINER_DATA_TYPE_IV_EV_SET | TRAINER_DATA_TYPE_NATURE_SET | TRAINER_DATA_TYPE_ADDITIONAL_FLAGS
     trainerclass TRAINERCLASS_LEADER_MISTY
     nummons 4
     item ITEM_FULL_RESTORE
@@ -11402,49 +11402,69 @@ trainerdata 254, "Misty"
         // mon 0
         ivs 200
         abilityslot 0
-        level 49
-        pokemon SPECIES_GOLDUCK
-        item ITEM_NONE
-        move MOVE_WATER_PULSE
-        move MOVE_DISABLE
-        move MOVE_PSYCH_UP
-        move MOVE_PSYCHIC
+        level 71
+        pokemon SPECIES_SLAKING
+        item ITEM_LEFTOVERS
+        move MOVE_SLASH
+        move MOVE_EARTHQUAKE
+        move MOVE_BRICK_BREAK
+        move MOVE_DOUBLE_TEAM
+        ability ABILITY_TRUANT
+        setivs 31, 31, 31, 31, 0, 31 // hp, atk, def, spd, spatk, spdef
+        setevs 0, 0, 252, 0, 0, 252
+        nature NATURE_ADAMANT
+        additionalflags 0
         ballseal 0
 
         // mon 1
         ivs 200
         abilityslot 32
-        level 49
-        pokemon SPECIES_QUAGSIRE
+        level 71
+        monwithform SPECIES_LOPUNNY, 1
         item ITEM_NONE
-        move MOVE_WATER_PULSE
-        move MOVE_AMNESIA
-        move MOVE_EARTHQUAKE
-        move MOVE_RAIN_DANCE
+        move MOVE_SKY_UPPERCUT
+        move MOVE_THUNDER_PUNCH
+        move MOVE_HEADBUTT
+        move MOVE_TOXIC
+        ability ABILITY_SCRAPPY
+        setivs 31, 31, 31, 31, 0, 31 // hp, atk, def, spd, spatk, spdef
+        setevs 0, 0, 252, 0, 0, 252
+        nature NATURE_ADAMANT
+        additionalflags 0
         ballseal 0
 
         // mon 2
         ivs 200
         abilityslot 0
-        level 52
-        pokemon SPECIES_LAPRAS
-        item ITEM_NONE
-        move MOVE_WATER_PULSE
-        move MOVE_SING
-        move MOVE_ICE_BEAM
-        move MOVE_BODY_SLAM
+        level 71
+        pokemon SPECIES_LICKILICKY
+        item ITEM_SITRUS_BERRY
+        move MOVE_DEFENSE_CURL
+        move MOVE_ROLLOUT
+        move MOVE_NONE
+        move MOVE_NONE
+        ability ABILITY_OWN_TEMPO
+        setivs 31, 31, 31, 31, 0, 31 // hp, atk, def, spd, spatk, spdef
+        setevs 0, 252, 126, 0, 0, 126
+        nature NATURE_ADAMANT
+        additionalflags 0
         ballseal 0
 
         // mon 3
         ivs 200
         abilityslot 32
-        level 54
-        pokemon SPECIES_STARMIE
-        item ITEM_SITRUS_BERRY
-        move MOVE_WATER_PULSE
-        move MOVE_CONFUSE_RAY
+        level 71
+        pokemon SPECIES_ARCEUS
+        item ITEM_MUSCLE_BAND
+        move MOVE_EXTREME_SPEED
         move MOVE_RECOVER
-        move MOVE_ICE_BEAM
+        move MOVE_AQUA_TAIL
+        move MOVE_DRAGON_CLAW
+        ability ABILITY_MULTITYPE
+        setivs 31, 31, 31, 31, 0, 31 // hp, atk, def, spd, spatk, spdef
+        setevs 0, 252, 126, 0, 0, 126
+        nature NATURE_ADAMANT
+        additionalflags 0
         ballseal 0
     endparty
 
@@ -14049,7 +14069,7 @@ trainerdata 296, "Nikki"
     endparty
 
 trainerdata 297, "Diana"
-    trainermontype TRAINER_DATA_TYPE_MOVES
+    trainermontype TRAINER_DATA_TYPE_MOVES | TRAINER_DATA_TYPE_ABILITY | TRAINER_DATA_TYPE_IV_EV_SET | TRAINER_DATA_TYPE_NATURE_SET | TRAINER_DATA_TYPE_ADDITIONAL_FLAGS
     trainerclass TRAINERCLASS_SWIMMER_F
     nummons 1
     item ITEM_NONE
@@ -14064,17 +14084,22 @@ trainerdata 297, "Diana"
         // mon 0
         ivs 0
         abilityslot 32
-        level 48
-        pokemon SPECIES_GOLDUCK
-        move MOVE_WATER_PULSE
-        move MOVE_ZEN_HEADBUTT
-        move MOVE_PSYCH_UP
-        move MOVE_DISABLE
+        level 71
+        pokemon SPECIES_PURUGLY
+        move MOVE_BODY_SLAM
+        move MOVE_IRON_TAIL
+        move MOVE_SHADOW_CLAW
+        move MOVE_SUBSTITUTE
+        ability ABILITY_THICK_FAT
+        setivs 31, 31, 31, 31, 0, 31 // hp, atk, def, spd, spatk, spdef
+        setevs 252, 252, 0, 0, 0, 0
+        nature NATURE_ADAMANT
+        additionalflags 0
         ballseal 0
     endparty
 
 trainerdata 298, "Briana"
-    trainermontype TRAINER_DATA_TYPE_MOVES
+    trainermontype TRAINER_DATA_TYPE_MOVES | TRAINER_DATA_TYPE_ABILITY | TRAINER_DATA_TYPE_IV_EV_SET | TRAINER_DATA_TYPE_NATURE_SET | TRAINER_DATA_TYPE_ADDITIONAL_FLAGS
     trainerclass TRAINERCLASS_SWIMMER_F
     nummons 2
     item ITEM_NONE
@@ -14089,23 +14114,33 @@ trainerdata 298, "Briana"
         // mon 0
         ivs 0
         abilityslot 32
-        level 46
-        pokemon SPECIES_SEAKING
-        move MOVE_WATER_PULSE
-        move MOVE_AQUA_RING
-        move MOVE_SUPERSONIC
-        move MOVE_POISON_JAB
+        level 71
+        pokemon SPECIES_PURUGLY
+        move MOVE_BODY_SLAM
+        move MOVE_IRON_TAIL
+        move MOVE_SHADOW_CLAW
+        move MOVE_SUBSTITUTE
+        ability ABILITY_THICK_FAT
+        setivs 31, 31, 31, 31, 0, 31 // hp, atk, def, spd, spatk, spdef
+        setevs 252, 252, 0, 0, 0, 0
+        nature NATURE_ADAMANT
+        additionalflags 0
         ballseal 0
 
         // mon 1
         ivs 0
         abilityslot 32
-        level 46
-        pokemon SPECIES_SEAKING
-        move MOVE_WATER_PULSE
-        move MOVE_AQUA_RING
-        move MOVE_SUPERSONIC
-        move MOVE_POISON_JAB
+        level 71
+        pokemon SPECIES_RATICATE
+        move MOVE_CRUNCH
+        move MOVE_HYPER_FANG
+        move MOVE_ZEN_HEADBUTT
+        move MOVE_STRENGTH
+        ability ABILITY_HUSTLE
+        setivs 31, 31, 31, 31, 0, 31 // hp, atk, def, spd, spatk, spdef
+        setevs 252, 252, 0, 0, 0, 0
+        nature NATURE_ADAMANT
+        additionalflags 0
         ballseal 0
     endparty
 
@@ -16949,7 +16984,7 @@ trainerdata 376, "Mickey"
     endparty
 
 trainerdata 377, "Parker"
-    trainermontype TRAINER_DATA_TYPE_MOVES
+    trainermontype TRAINER_DATA_TYPE_MOVES | TRAINER_DATA_TYPE_ABILITY | TRAINER_DATA_TYPE_IV_EV_SET | TRAINER_DATA_TYPE_NATURE_SET | TRAINER_DATA_TYPE_ADDITIONAL_FLAGS
     trainerclass TRAINERCLASS_SWIMMER_M
     nummons 2
     item ITEM_NONE
@@ -16964,23 +16999,33 @@ trainerdata 377, "Parker"
         // mon 0
         ivs 0
         abilityslot 32
-        level 43
-        pokemon SPECIES_HORSEA
-        move MOVE_WATER_PULSE
-        move MOVE_FOCUS_ENERGY
-        move MOVE_TWISTER
-        move MOVE_AGILITY
+        level 71
+        pokemon SPECIES_RATICATE
+        move MOVE_CRUNCH
+        move MOVE_HYPER_FANG
+        move MOVE_ZEN_HEADBUTT
+        move MOVE_STRENGTH
+        ability ABILITY_HUSTLE
+        setivs 31, 31, 31, 31, 0, 31 // hp, atk, def, spd, spatk, spdef
+        setevs 252, 252, 0, 0, 0, 0
+        nature NATURE_ADAMANT
+        additionalflags 0
         ballseal 0
 
         // mon 1
         ivs 0
         abilityslot 32
-        level 43
-        pokemon SPECIES_SEADRA
-        move MOVE_WATER_PULSE
-        move MOVE_FOCUS_ENERGY
-        move MOVE_TWISTER
-        move MOVE_AGILITY
+        level 71
+        pokemon SPECIES_PERSIAN
+        move MOVE_BITE
+        move MOVE_FEINT_ATTACK
+        move MOVE_SEED_BOMB
+        move MOVE_CUT
+        ability ABILITY_TECHNICIAN
+        setivs 31, 31, 31, 31, 0, 31 // hp, atk, def, spd, spatk, spdef
+        setevs 252, 252, 0, 0, 0, 0
+        nature NATURE_ADAMANT
+        additionalflags 0
         ballseal 0
     endparty
 
@@ -28174,7 +28219,7 @@ trainerdata 675, "Chimothy"
     endparty
 
 trainerdata 676, "Parker"
-    trainermontype TRAINER_DATA_TYPE_MOVES
+    trainermontype TRAINER_DATA_TYPE_MOVES | TRAINER_DATA_TYPE_ABILITY | TRAINER_DATA_TYPE_IV_EV_SET | TRAINER_DATA_TYPE_NATURE_SET | TRAINER_DATA_TYPE_ADDITIONAL_FLAGS
     trainerclass TRAINERCLASS_SAILOR
     nummons 2
     item ITEM_NONE
@@ -28189,28 +28234,38 @@ trainerdata 676, "Parker"
         // mon 0
         ivs 0
         abilityslot 32
-        level 43
-        pokemon SPECIES_HORSEA
-        move MOVE_WATER_PULSE
-        move MOVE_FOCUS_ENERGY
-        move MOVE_TWISTER
-        move MOVE_AGILITY
+        level 71
+        pokemon SPECIES_RATICATE
+        move MOVE_CRUNCH
+        move MOVE_HYPER_FANG
+        move MOVE_ZEN_HEADBUTT
+        move MOVE_STRENGTH
+        ability ABILITY_HUSTLE
+        setivs 31, 31, 31, 31, 0, 31 // hp, atk, def, spd, spatk, spdef
+        setevs 252, 252, 0, 0, 0, 0
+        nature NATURE_ADAMANT
+        additionalflags 0
         ballseal 0
 
         // mon 1
         ivs 0
         abilityslot 32
-        level 43
-        pokemon SPECIES_SEADRA
-        move MOVE_WATER_PULSE
-        move MOVE_FOCUS_ENERGY
-        move MOVE_TWISTER
-        move MOVE_AGILITY
+        level 71
+        pokemon SPECIES_PERSIAN
+        move MOVE_BITE
+        move MOVE_FEINT_ATTACK
+        move MOVE_SEED_BOMB
+        move MOVE_CUT
+        ability ABILITY_TECHNICIAN
+        setivs 31, 31, 31, 31, 0, 31 // hp, atk, def, spd, spatk, spdef
+        setevs 252, 252, 0, 0, 0, 0
+        nature NATURE_ADAMANT
+        additionalflags 0
         ballseal 0
     endparty
 
 trainerdata 677, "Eddie"
-    trainermontype TRAINER_DATA_TYPE_MOVES
+    trainermontype TRAINER_DATA_TYPE_MOVES | TRAINER_DATA_TYPE_ABILITY | TRAINER_DATA_TYPE_IV_EV_SET | TRAINER_DATA_TYPE_NATURE_SET | TRAINER_DATA_TYPE_ADDITIONAL_FLAGS
     trainerclass TRAINERCLASS_SAILOR
     nummons 1
     item ITEM_NONE
@@ -28225,17 +28280,22 @@ trainerdata 677, "Eddie"
         // mon 0
         ivs 0
         abilityslot 32
-        level 48
-        pokemon SPECIES_AZUMARILL
-        move MOVE_WATER_PULSE
-        move MOVE_AQUA_RING
-        move MOVE_DOUBLE_EDGE
+        level 71
+        pokemon SPECIES_BIBAREL
         move MOVE_AQUA_TAIL
+        move MOVE_ROCK_CLIMB
+        move MOVE_PLUCK
+        move MOVE_SUBSTITUTE
+        ability ABILITY_MOODY
+        setivs 31, 31, 31, 31, 0, 31 // hp, atk, def, spd, spatk, spdef
+        setevs 252, 252, 0, 0, 0, 0
+        nature NATURE_ADAMANT
+        additionalflags 0
         ballseal 0
     endparty
 
 trainerdata 678, "Joy"
-    trainermontype TRAINER_DATA_TYPE_MOVES
+    trainermontype TRAINER_DATA_TYPE_MOVES | TRAINER_DATA_TYPE_ABILITY | TRAINER_DATA_TYPE_IV_EV_SET | TRAINER_DATA_TYPE_NATURE_SET | TRAINER_DATA_TYPE_ADDITIONAL_FLAGS
     trainerclass TRAINERCLASS_SWIMMER_F
     nummons 1
     item ITEM_NONE
@@ -28250,12 +28310,17 @@ trainerdata 678, "Joy"
         // mon 0
         ivs 0
         abilityslot 32
-        level 48
-        pokemon SPECIES_CLOYSTER
-        move MOVE_WATER_PULSE
-        move MOVE_SPIKE_CANNON
-        move MOVE_AURORA_BEAM
-        move MOVE_ATTRACT
+        level 71
+        pokemon SPECIES_STARAPTOR
+        move MOVE_BRAVE_BIRD
+        move MOVE_CLOSE_COMBAT
+        move MOVE_WHIRLWIND
+        move MOVE_STEEL_WING
+        ability ABILITY_INTIMIDATE
+        setivs 31, 31, 31, 31, 0, 31 // hp, atk, def, spd, spatk, spdef
+        setevs 252, 252, 0, 0, 0, 0
+        nature NATURE_ADAMANT
+        additionalflags 0
         ballseal 0
     endparty
 
