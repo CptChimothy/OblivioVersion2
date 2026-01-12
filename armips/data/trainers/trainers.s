@@ -10129,7 +10129,7 @@ trainerdata 231, "Edward"
     endparty
 
 trainerdata 232, "Vincent"
-    trainermontype TRAINER_DATA_TYPE_MOVES
+    trainermontype TRAINER_DATA_TYPE_MOVES | TRAINER_DATA_TYPE_ABILITY | TRAINER_DATA_TYPE_IV_EV_SET | TRAINER_DATA_TYPE_NATURE_SET | TRAINER_DATA_TYPE_ADDITIONAL_FLAGS
     trainerclass TRAINERCLASS_GUITARIST
     nummons 3
     item ITEM_NONE
@@ -10144,34 +10144,49 @@ trainerdata 232, "Vincent"
         // mon 0
         ivs 0
         abilityslot 0
-        level 45
-        pokemon SPECIES_JOLTEON
-        move MOVE_SHOCK_WAVE
-        move MOVE_QUICK_ATTACK
-        move MOVE_PIN_MISSILE
-        move MOVE_HELPING_HAND
+        level 72
+        pokemon SPECIES_LUCARIO
+        move MOVE_DRAGON_PULSE
+        move MOVE_AURA_SPHERE
+        move MOVE_SHADOW_BALL
+        move MOVE_PSYCHIC
+        ability ABILITY_JUSTIFIED
+        setivs 31, 0, 31, 31, 31, 31 // hp, atk, def, spd, spatk, spdef
+        setevs 252, 0, 126, 0, 0, 126
+        nature NATURE_MODEST
+        additionalflags 0
         ballseal 0
 
         // mon 1
         ivs 0
         abilityslot 32
-        level 43
-        pokemon SPECIES_VOLTORB
-        move MOVE_SHOCK_WAVE
-        move MOVE_SWIFT
-        move MOVE_GYRO_BALL
-        move MOVE_SCREECH
+        level 72
+        pokemon SPECIES_TOXICROAK
+        move MOVE_POISON_JAB
+        move MOVE_REVENGE
+        move MOVE_BULLET_PUNCH
+        move MOVE_ICE_PUNCH
+        ability ABILITY_POISON_TOUCH
+        setivs 31, 31, 31, 31, 0, 31 // hp, atk, def, spd, spatk, spdef
+        setevs 252, 0, 126, 0, 0, 126
+        nature NATURE_ADAMANT
+        additionalflags 0
         ballseal 0
 
         // mon 2
         ivs 0
         abilityslot 32
-        level 42
-        pokemon SPECIES_MAGNEMITE
-        move MOVE_SHOCK_WAVE
-        move MOVE_SUPERSONIC
-        move MOVE_THUNDER_WAVE
-        move MOVE_MAGNET_BOMB
+        level 72
+        pokemon SPECIES_GALLADE
+        move MOVE_LEAF_BLADE
+        move MOVE_BRICK_BREAK
+        move MOVE_ZEN_HEADBUTT
+        move MOVE_THUNDER_PUNCH
+        ability ABILITY_JUSTIFIED
+        setivs 31, 31, 31, 31, 0, 31 // hp, atk, def, spd, spatk, spdef
+        setevs 252, 0, 126, 0, 0, 126
+        nature NATURE_ADAMANT
+        additionalflags 0
         ballseal 0
     endparty
 
@@ -11468,8 +11483,8 @@ trainerdata 254, "MsV"
         ballseal 0
     endparty
 
-trainerdata 255, "Lt. Surge"
-    trainermontype TRAINER_DATA_TYPE_ITEMS | TRAINER_DATA_TYPE_MOVES
+trainerdata 255, "Glow"
+    trainermontype TRAINER_DATA_TYPE_ITEMS | TRAINER_DATA_TYPE_MOVES | TRAINER_DATA_TYPE_ITEMS | TRAINER_DATA_TYPE_ABILITY | TRAINER_DATA_TYPE_IV_EV_SET | TRAINER_DATA_TYPE_NATURE_SET | TRAINER_DATA_TYPE_ADDITIONAL_FLAGS
     trainerclass TRAINERCLASS_LEADER_LT_SURGE
     nummons 5
     item ITEM_FULL_RESTORE
@@ -11484,61 +11499,86 @@ trainerdata 255, "Lt. Surge"
         // mon 0
         ivs 200
         abilityslot 0
-        level 51
-        pokemon SPECIES_RAICHU
-        item ITEM_NONE
-        move MOVE_THUNDER_WAVE
-        move MOVE_QUICK_ATTACK
-        move MOVE_SHOCK_WAVE
-        move MOVE_DOUBLE_TEAM
+        level 73
+        pokemon SPECIES_BLAZIKEN
+        item ITEM_MUSCLE_BAND
+        move MOVE_SKY_UPPERCUT
+        move MOVE_SAND_ATTACK
+        move MOVE_BLAZE_KICK
+        move MOVE_ROCK_SLIDE
+        ability ABILITY_SPEED_BOOST
+        setivs 31, 31, 31, 31, 0, 31 // hp, atk, def, spd, spatk, spdef
+        setevs 252, 0, 126, 0, 0, 126
+        nature NATURE_ADAMANT
+        additionalflags 0
         ballseal 0
 
         // mon 1
         ivs 200
         abilityslot 32
-        level 47
-        pokemon SPECIES_ELECTRODE
-        item ITEM_NONE
-        move MOVE_THUNDER_WAVE
-        move MOVE_DOUBLE_TEAM
-        move MOVE_SHOCK_WAVE
-        move MOVE_LIGHT_SCREEN
+        level 73
+        pokemon SPECIES_CONKELDURR
+        item ITEM_FLAME_ORB
+        move MOVE_ROCK_SLIDE
+        move MOVE_DRAIN_PUNCH
+        move MOVE_EARTHQUAKE
+        move MOVE_FLING
+        ability ABILITY_GUTS
+        setivs 31, 31, 31, 31, 0, 31 // hp, atk, def, spd, spatk, spdef
+        setevs 0, 0, 252, 0, 0, 252
+        nature NATURE_ADAMANT
+        additionalflags 0
         ballseal 0
 
         // mon 2
         ivs 200
         abilityslot 0
-        level 47
-        pokemon SPECIES_MAGNETON
-        item ITEM_NONE
-        move MOVE_SUPERSONIC
-        move MOVE_DOUBLE_TEAM
-        move MOVE_SHOCK_WAVE
-        move MOVE_MIRROR_SHOT
+        level 73
+        pokemon SPECIES_SCRAFTY
+        item ITEM_MUSCLE_BAND
+        move MOVE_CRUNCH
+        move MOVE_BRICK_BREAK
+        move MOVE_ROCK_CLIMB
+        move MOVE_ICE_PUNCH
+        ability ABILITY_INTIMIDATE
+        setivs 31, 31, 31, 31, 0, 31 // hp, atk, def, spd, spatk, spdef
+        setevs 252, 252, 0, 0, 0, 0
+        nature NATURE_ADAMANT
+        additionalflags 0
         ballseal 0
 
         // mon 3
         ivs 200
         abilityslot 32
-        level 47
-        pokemon SPECIES_ELECTRODE
-        item ITEM_NONE
-        move MOVE_SCREECH
-        move MOVE_DOUBLE_TEAM
-        move MOVE_SELF_DESTRUCT
-        move MOVE_CHARGE_BEAM
+        level 73
+        pokemon SPECIES_GALLADE
+        item ITEM_MUSCLE_BAND
+        move MOVE_LEAF_BLADE
+        move MOVE_BRICK_BREAK
+        move MOVE_ZEN_HEADBUTT
+        move MOVE_THUNDER_PUNCH
+        ability ABILITY_JUSTIFIED
+        setivs 31, 31, 31, 31, 0, 31 // hp, atk, def, spd, spatk, spdef
+        setevs 252, 0, 126, 0, 0, 126
+        nature NATURE_ADAMANT
+        additionalflags 0
         ballseal 0
 
         // mon 4
         ivs 200
         abilityslot 0
-        level 53
-        pokemon SPECIES_ELECTABUZZ
-        item ITEM_SITRUS_BERRY
-        move MOVE_QUICK_ATTACK
-        move MOVE_SHOCK_WAVE
-        move MOVE_LIGHT_SCREEN
-        move MOVE_LOW_KICK
+        level 73
+        monwithform SPECIES_MEWTWO, 1
+        item ITEM_NONE
+        move MOVE_ZEN_HEADBUTT
+        move MOVE_DRAIN_PUNCH
+        move MOVE_STONE_EDGE
+        move MOVE_DOUBLE_TEAM
+        ability ABILITY_STEADFAST
+        setivs 31, 31, 31, 31, 0, 31 // hp, atk, def, spd, spatk, spdef
+        setevs 0, 252, 126, 0, 0, 126
+        nature NATURE_ADAMANT
+        additionalflags 0
         ballseal 0
     endparty
 
@@ -15545,7 +15585,7 @@ trainerdata 336, "Tanya"
     endparty
 
 trainerdata 337, "Gregory"
-    trainermontype TRAINER_DATA_TYPE_MOVES
+    trainermontype TRAINER_DATA_TYPE_MOVES | TRAINER_DATA_TYPE_ABILITY | TRAINER_DATA_TYPE_IV_EV_SET | TRAINER_DATA_TYPE_NATURE_SET | TRAINER_DATA_TYPE_ADDITIONAL_FLAGS
     trainerclass TRAINERCLASS_GENTLEMAN
     nummons 3
     item ITEM_FULL_RESTORE
@@ -15559,35 +15599,50 @@ trainerdata 337, "Gregory"
     party 337
         // mon 0
         ivs 0
-        abilityslot 0
-        level 46
-        pokemon SPECIES_PIKACHU
-        move MOVE_DISCHARGE
-        move MOVE_LIGHT_SCREEN
-        move MOVE_THUNDER_WAVE
-        move MOVE_DOUBLE_TEAM
+        abilityslot 32
+        level 72
+        pokemon SPECIES_MACHAMP
+        move MOVE_CROSS_CHOP
+        move MOVE_FIRE_PUNCH
+        move MOVE_ICE_PUNCH
+        move MOVE_ROCK_SLIDE
+        ability ABILITY_GUTS
+        setivs 31, 31, 31, 31, 0, 31 // hp, atk, def, spd, spatk, spdef
+        setevs 0, 252, 126, 0, 0, 126
+        nature NATURE_ADAMANT
+        additionalflags 0
         ballseal 0
 
         // mon 1
         ivs 0
-        abilityslot 0
-        level 43
-        pokemon SPECIES_FLAAFFY
-        move MOVE_SHOCK_WAVE
-        move MOVE_SIGNAL_BEAM
-        move MOVE_CHARGE_BEAM
-        move MOVE_DOUBLE_TEAM
+        abilityslot 32
+        level 72
+        pokemon SPECIES_GALLADE
+        move MOVE_LEAF_BLADE
+        move MOVE_BRICK_BREAK
+        move MOVE_ZEN_HEADBUTT
+        move MOVE_THUNDER_PUNCH
+        ability ABILITY_JUSTIFIED
+        setivs 31, 31, 31, 31, 0, 31 // hp, atk, def, spd, spatk, spdef
+        setevs 252, 0, 126, 0, 0, 126
+        nature NATURE_ADAMANT
+        additionalflags 0
         ballseal 0
 
         // mon 2
         ivs 0
-        abilityslot 0
-        level 42
-        pokemon SPECIES_ELECTRIKE
-        move MOVE_SHOCK_WAVE
-        move MOVE_ROAR
-        move MOVE_THUNDER_WAVE
-        move MOVE_THUNDER_FANG
+        abilityslot 32
+        level 72
+        pokemon SPECIES_HITMONTOP
+        move MOVE_DETECT
+        move MOVE_STRENGTH
+        move MOVE_BRICK_BREAK
+        move MOVE_EARTHQUAKE
+        ability ABILITY_INTIMIDATE
+        setivs 31, 31, 31, 31, 0, 31 // hp, atk, def, spd, spatk, spdef
+        setevs 252, 252, 0, 0, 0, 0
+        nature NATURE_ADAMANT
+        additionalflags 0
         ballseal 0
     endparty
 
@@ -17770,7 +17825,7 @@ trainerdata 395, "Mark"
     endparty
 
 trainerdata 396, "Horton"
-    trainermontype TRAINER_DATA_TYPE_MOVES
+    trainermontype TRAINER_DATA_TYPE_MOVES | TRAINER_DATA_TYPE_ABILITY | TRAINER_DATA_TYPE_IV_EV_SET | TRAINER_DATA_TYPE_NATURE_SET | TRAINER_DATA_TYPE_ADDITIONAL_FLAGS
     trainerclass TRAINERCLASS_JUGGLER
     nummons 3
     item ITEM_NONE
@@ -17785,34 +17840,49 @@ trainerdata 396, "Horton"
         // mon 0
         ivs 0
         abilityslot 32
-        level 43
-        pokemon SPECIES_ELECTRODE
-        move MOVE_SWIFT
-        move MOVE_SHOCK_WAVE
-        move MOVE_SCREECH
-        move MOVE_EXPLOSION
+        level 72
+        pokemon SPECIES_MACHAMP
+        move MOVE_CROSS_CHOP
+        move MOVE_FIRE_PUNCH
+        move MOVE_ICE_PUNCH
+        move MOVE_ROCK_SLIDE
+        ability ABILITY_GUTS
+        setivs 31, 31, 31, 31, 0, 31 // hp, atk, def, spd, spatk, spdef
+        setevs 0, 252, 126, 0, 0, 126
+        nature NATURE_ADAMANT
+        additionalflags 0
         ballseal 0
 
         // mon 1
         ivs 0
         abilityslot 0
-        level 43
-        pokemon SPECIES_ELECTRODE
-        move MOVE_SWIFT
-        move MOVE_SHOCK_WAVE
-        move MOVE_DOUBLE_TEAM
-        move MOVE_LIGHT_SCREEN
+        level 72
+        pokemon SPECIES_HERACROSS
+        move MOVE_MEGAHORN
+        move MOVE_BRICK_BREAK
+        move MOVE_EARTHQUAKE
+        move MOVE_ROCK_SLIDE
+        ability ABILITY_SWARM
+        setivs 31, 31, 31, 31, 0, 31 // hp, atk, def, spd, spatk, spdef
+        setevs 0, 252, 126, 0, 0, 126
+        nature NATURE_ADAMANT
+        additionalflags 0
         ballseal 0
 
         // mon 2
         ivs 0
         abilityslot 32
-        level 43
-        pokemon SPECIES_ELECTRODE
-        move MOVE_SWIFT
-        move MOVE_SHOCK_WAVE
-        move MOVE_SCREECH
-        move MOVE_ROLLOUT
+        level 72
+        pokemon SPECIES_HITMONTOP
+        move MOVE_DETECT
+        move MOVE_STRENGTH
+        move MOVE_BRICK_BREAK
+        move MOVE_EARTHQUAKE
+        ability ABILITY_INTIMIDATE
+        setivs 31, 31, 31, 31, 0, 31 // hp, atk, def, spd, spatk, spdef
+        setevs 252, 252, 0, 0, 0, 0
+        nature NATURE_ADAMANT
+        additionalflags 0
         ballseal 0
     endparty
 

@@ -183,18 +183,18 @@ headbuttheader  12,   9,   0   // Route 4
 
 headbuttheader  13,   4,   0   // Route 5
     // normal slots
-    headbuttencounter SPECIES_HOOTHOOT, 11, 13
-    headbuttencounter SPECIES_PINECO, 11, 13
-    headbuttencounter SPECIES_PINECO, 11, 13
-    headbuttencounter SPECIES_COMBEE, 11, 13
-    headbuttencounter SPECIES_COMBEE, 11, 13
-    headbuttencounter SPECIES_COMBEE, 11, 13
-    headbuttencounter SPECIES_HOOTHOOT, 14, 16
-    headbuttencounter SPECIES_HOOTHOOT, 14, 16
-    headbuttencounter SPECIES_HOOTHOOT, 14, 16
-    headbuttencounter SPECIES_COMBEE, 14, 16
-    headbuttencounter SPECIES_COMBEE, 14, 16
-    headbuttencounter SPECIES_COMBEE, 14, 16
+    headbuttencounter SPECIES_PIDGEY, 55, 57
+    headbuttencounter SPECIES_TAILLOW, 55, 57
+    headbuttencounter SPECIES_TAILLOW, 55, 57
+    headbuttencounter SPECIES_METAPOD, 55, 57
+    headbuttencounter SPECIES_METAPOD, 55, 57
+    headbuttencounter SPECIES_METAPOD, 55, 57
+    headbuttencounter SPECIES_PIDGEY, 55, 57
+    headbuttencounter SPECIES_PIDGEY, 55, 57
+    headbuttencounter SPECIES_PIDGEY, 55, 57
+    headbuttencounter SPECIES_METAPOD, 55, 57
+    headbuttencounter SPECIES_METAPOD, 55, 57
+    headbuttencounter SPECIES_METAPOD, 55, 57
     // special slots
     headbuttencounter SPECIES_NONE, 0, 0
     headbuttencounter SPECIES_NONE, 0, 0
